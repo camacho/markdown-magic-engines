@@ -1,6 +1,6 @@
 {
   "name": "markdown-magic-engines",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Render engine requirements in Markdown files via Markdown Magic",
   "main": "index.js",
   "engines": {

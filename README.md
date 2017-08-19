@@ -34,7 +34,5 @@ markdownMagic(markdownPath, config);
 ## Usage in markdown
 
 <!-- AUTO-GENERATED-CONTENT:START (ENGINES) -->
-```js
-console.log('hello world');
-```
+* **node**: ^8.0.0
 <!-- AUTO-GENERATED-CONTENT:END -->
