@@ -1,0 +1,41 @@
+{
+  "name": "markdown-magic-engines",
+  "version": "1.0.0",
+  "description": "Render engine requirements in Markdown files via Markdown Magic",
+  "main": "index.js",
+  "engines": {
+    "node": "^8.0.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "docs": "node example.js",
+    "prepublish": "npm run docs",
+    "format": "prettier --single-quote --trailing-comma es5 --write \"*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camacho/markdown-magic-engines.git"
+  },
+  "keywords": [
+    "engines",
+    "markdown",
+    "magic"
+  ],
+  "author": "Patrick Camacho <patrick@daftdevelopers.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/camacho/markdown-magic-engines/issues"
+  },
+  "homepage": "https://github.com/camacho/markdown-magic-engines#readme",
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "markdown-magic": "^0.1.17",
+    "prettier": "^1.5.3"
+  },
+  "peerDependencies": {
+    "markdown-magic": "^0.1.17"
+  },
+  "dependencies": {
+    "findup": "^0.1.5"
+  }
+}
