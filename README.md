@@ -34,5 +34,5 @@ markdownMagic(markdownPath, config);
 ## Usage in markdown
 
 <!-- AUTO-GENERATED-CONTENT:START (ENGINES) -->
-* **node**: ^8.0.0
+* **node**: >=8.0.0
 <!-- AUTO-GENERATED-CONTENT:END -->

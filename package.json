@@ -1,10 +1,10 @@
 {
   "name": "markdown-magic-engines",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Render engine requirements in Markdown files via Markdown Magic",
   "main": "index.js",
   "engines": {
-    "node": "^8.0.0"
+    "node": ">=8.0.0"
   },
   "scripts": {
     "test": "jest",
@@ -19,7 +19,11 @@
   "keywords": [
     "engines",
     "markdown",
-    "magic"
+    "magic",
+    "markdown-magic",
+    "npm",
+    "yarn",
+    "node"
   ],
   "author": "Patrick Camacho <patrick@daftdevelopers.com>",
   "license": "MIT",
@@ -28,12 +32,12 @@
   },
   "homepage": "https://github.com/camacho/markdown-magic-engines#readme",
   "devDependencies": {
-    "jest": "^20.0.4",
-    "markdown-magic": "^0.1.17",
-    "prettier": "^1.5.3"
+    "jest": "^27.5.1",
+    "markdown-magic": "^2.0.0",
+    "prettier": "^2.0.0"
   },
   "peerDependencies": {
-    "markdown-magic": "^0.1.17"
+    "markdown-magic": ">=0.1 <=2.x"
   },
   "dependencies": {
     "findup": "^0.1.5"
